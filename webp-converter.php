@@ -1,9 +1,16 @@
 <?php
 /**
  * Plugin Name: WebP Only Uploads
- * Description: Конвертирует все загружаемые изображения в WebP и удаляет оригиналы. Поддержка настройки качества через админку.
- * Version: 1.2
- * Author: Рамиль
+ * Plugin URI: https://github.com/sharafiev/webp-only-uploads
+ * Description: Конвертирует все загружаемые изображения в WebP и удаляет оригиналы. Поддержка настроек качества и массовой конверсии.
+ * Version: 1.3
+ * Author: Ramil Sharafiev
+ * Author URI: https://github.com/sharafiev
+ * License: GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * GitHub Plugin URI: https://github.com/sharafiev/webp-only-uploads
+ * Primary Branch: main
  */
 
 add_filter('wp_handle_upload', 'convert_image_to_webp');
